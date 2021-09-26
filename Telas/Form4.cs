@@ -9,21 +9,25 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Telas {
-    public partial class Form2 : Form {
-        public Form2() {
+    public partial class Form4 : Form {
+        public Form4() {
             InitializeComponent();
             customizeDesign();
-            // colocar o ponteiro no campo nome ao abrir o Form2 e demais tbm
-        }
 
+        }
         private void customizeDesign() {
-            panelEndereco.Visible = false;
+            panelCadLocal.Visible = false;
+            panelCadCategoriaLocal.Visible = false;
+            
+           
         }
         private void hideSubMenu() {
-            if (panelEndereco.Visible == true) {
-                panelEndereco.Visible = false;
+            if (panelCadLocal.Visible == true) {
+                panelCadLocal.Visible = false;
             }
-         
+            if (panelCadCategoriaLocal.Visible == true) {
+                panelCadCategoriaLocal.Visible = false;
+            }
         }
         private void showSubMenu(Panel subMenu) {
             if (subMenu.Visible == false) {
@@ -36,24 +40,20 @@ namespace Telas {
 
         }
 
-        private void button4_Click(object sender, EventArgs e) {
+        
+
+        private void button4_Click_1(object sender, EventArgs e) {
             this.Close();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e) {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e) {
-
-        }
+        
 
         private void btnShowCadEndereco_Click(object sender, EventArgs e) {
-            showSubMenu(panelEndereco);
+            showSubMenu(panelCadLocal);
         }
 
-        private void btnCadastrar_Click(object sender, EventArgs e) {
-
+        private void button1_Click(object sender, EventArgs e) {
+            showSubMenu(panelCadCategoriaLocal);
         }
     }
 }

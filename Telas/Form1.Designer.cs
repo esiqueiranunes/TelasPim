@@ -89,7 +89,7 @@ namespace Telas {
             this.btnOption.Name = "btnOption";
             this.btnOption.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnOption.Size = new System.Drawing.Size(152, 35);
-            this.btnOption.TabIndex = 9;
+            this.btnOption.TabIndex = 5;
             this.btnOption.Text = "Opções";
             this.btnOption.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOption.UseVisualStyleBackColor = true;
@@ -148,7 +148,7 @@ namespace Telas {
             this.btnFinanceiro.Name = "btnFinanceiro";
             this.btnFinanceiro.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnFinanceiro.Size = new System.Drawing.Size(152, 35);
-            this.btnFinanceiro.TabIndex = 7;
+            this.btnFinanceiro.TabIndex = 4;
             this.btnFinanceiro.Text = "Financeiro";
             this.btnFinanceiro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFinanceiro.UseVisualStyleBackColor = true;
@@ -207,7 +207,7 @@ namespace Telas {
             this.btnEstoque.Name = "btnEstoque";
             this.btnEstoque.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnEstoque.Size = new System.Drawing.Size(152, 35);
-            this.btnEstoque.TabIndex = 5;
+            this.btnEstoque.TabIndex = 3;
             this.btnEstoque.Text = "Estoque";
             this.btnEstoque.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEstoque.UseVisualStyleBackColor = true;
@@ -266,7 +266,7 @@ namespace Telas {
             this.btnHospedagem.Name = "btnHospedagem";
             this.btnHospedagem.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnHospedagem.Size = new System.Drawing.Size(152, 35);
-            this.btnHospedagem.TabIndex = 3;
+            this.btnHospedagem.TabIndex = 2;
             this.btnHospedagem.Text = "Hospedagem";
             this.btnHospedagem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHospedagem.UseVisualStyleBackColor = true;
