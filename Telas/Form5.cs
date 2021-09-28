@@ -9,21 +9,24 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Telas {
-    public partial class Form2 : Form {
-        public Form2() {
+    public partial class Form5 : Form {
+        public Form5() {
             InitializeComponent();
             customizeDesign();
-            // colocar o ponteiro no campo nome ao abrir o Form2 e demais tbm
         }
-
         private void customizeDesign() {
-            panelEndereco.Visible = false;
+            panelCadServico.Visible = false;
+            panelCadCategoria.Visible = false;
+
+
         }
         private void hideSubMenu() {
-            if (panelEndereco.Visible == true) {
-                panelEndereco.Visible = false;
+            if (panelCadServico.Visible == true) {
+                panelCadServico.Visible = false;
             }
-         
+            if (panelCadCategoria.Visible == true) {
+                panelCadCategoria.Visible = false;
+            }
         }
         private void showSubMenu(Panel subMenu) {
             if (subMenu.Visible == false) {
@@ -40,28 +43,12 @@ namespace Telas {
             this.Close();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e) {
-
+        private void btnCadServico_Click(object sender, EventArgs e) {
+            showSubMenu(panelCadServico);
         }
 
-        private void label8_Click(object sender, EventArgs e) {
-
-        }
-
-        private void btnShowCadEndereco_Click(object sender, EventArgs e) {
-            showSubMenu(panelEndereco);
-        }
-
-        private void btnCadastrar_Click(object sender, EventArgs e) {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e) {
-
-        }
-
-        private void button4_Click_1(object sender, EventArgs e) {
-            this.Close();
+        private void btnCadCategoria_Click(object sender, EventArgs e) {
+            showSubMenu(panelCadCategoria);
         }
     }
 }

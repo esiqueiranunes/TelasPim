@@ -85,12 +85,12 @@ namespace Telas {
 
         private void btnLocais_Click(object sender, EventArgs e) {
             openChildForm(new Form4());
-            // criar Forms
+            
             hideSubMenu();
         }
 
         private void btnServicos_Click(object sender, EventArgs e) {
-            // criar Forms
+            openChildForm(new Form5());
             hideSubMenu();
         }
 
