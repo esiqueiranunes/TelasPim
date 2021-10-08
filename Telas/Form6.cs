@@ -9,22 +9,20 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Telas {
-    public partial class Form5 : Form {
-        public Form5() {
+    public partial class Form6 : Form {
+        public Form6() {
             InitializeComponent();
             customizeDesign();
-            AplicarEventos(tbValorServico);
-
+            AplicarEventos(tbValorProduto);
         }
         private void customizeDesign() {
-            panelCadServico.Visible = false;
+            panelCadProduto.Visible = false;
             panelCadCategoria.Visible = false;
-
 
         }
         private void hideSubMenu() {
-            if (panelCadServico.Visible == true) {
-                panelCadServico.Visible = false;
+            if (panelCadProduto.Visible == true) {
+                panelCadProduto.Visible = false;
             }
             if (panelCadCategoria.Visible == true) {
                 panelCadCategoria.Visible = false;
@@ -63,13 +61,16 @@ namespace Telas {
             txt.Leave += RetornarMascara;
             txt.KeyPress += ApenasValorNumerico;
         }
-
         private void button4_Click(object sender, EventArgs e) {
             this.Close();
         }
 
+        private void tbValorProduto_TextChanged(object sender, EventArgs e) {
+
+        }
+
         private void btnCadServico_Click(object sender, EventArgs e) {
-            showSubMenu(panelCadServico);
+            showSubMenu(panelCadProduto);
         }
 
         private void btnCadCategoria_Click(object sender, EventArgs e) {

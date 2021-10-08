@@ -30,26 +30,26 @@ namespace Telas {
             this.btnShowCadLocal = new System.Windows.Forms.Button();
             this.panelCadLocal = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbDescricaoLocal = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnShowCadCategoriaLocal = new System.Windows.Forms.Button();
             this.panelCadCategoriaLocal = new System.Windows.Forms.Panel();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.btnListarLocais = new System.Windows.Forms.Button();
+            this.tbNomeLocal = new System.Windows.Forms.TextBox();
+            this.tbCategoriaLocal = new System.Windows.Forms.TextBox();
+            this.tbValorLocal = new System.Windows.Forms.TextBox();
+            this.tbDescontoLocal = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panelCadLocal.SuspendLayout();
             this.panelCadCategoriaLocal.SuspendLayout();
@@ -75,7 +75,7 @@ namespace Telas {
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(627, 26);
+            this.button4.Location = new System.Drawing.Point(618, 26);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(106, 36);
             this.button4.TabIndex = 105;
@@ -113,11 +113,11 @@ namespace Telas {
             // panelCadLocal
             // 
             this.panelCadLocal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(100)))));
+            this.panelCadLocal.Controls.Add(this.tbNomeLocal);
             this.panelCadLocal.Controls.Add(this.label1);
-            this.panelCadLocal.Controls.Add(this.textBox1);
+            this.panelCadLocal.Controls.Add(this.tbDescricaoLocal);
             this.panelCadLocal.Controls.Add(this.label13);
             this.panelCadLocal.Controls.Add(this.comboBox3);
-            this.panelCadLocal.Controls.Add(this.maskedTextBox1);
             this.panelCadLocal.Controls.Add(this.label3);
             this.panelCadLocal.Controls.Add(this.button3);
             this.panelCadLocal.Controls.Add(this.btnCadastrar);
@@ -138,13 +138,13 @@ namespace Telas {
             this.label1.TabIndex = 93;
             this.label1.Text = "Descrição";
             // 
-            // textBox1
+            // tbDescricaoLocal
             // 
-            this.textBox1.Location = new System.Drawing.Point(55, 76);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(299, 40);
-            this.textBox1.TabIndex = 92;
+            this.tbDescricaoLocal.Location = new System.Drawing.Point(55, 76);
+            this.tbDescricaoLocal.Multiline = true;
+            this.tbDescricaoLocal.Name = "tbDescricaoLocal";
+            this.tbDescricaoLocal.Size = new System.Drawing.Size(299, 40);
+            this.tbDescricaoLocal.TabIndex = 92;
             // 
             // label13
             // 
@@ -168,13 +168,6 @@ namespace Telas {
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(132, 21);
             this.comboBox3.TabIndex = 90;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(55, 27);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(161, 20);
-            this.maskedTextBox1.TabIndex = 88;
             // 
             // label3
             // 
@@ -229,13 +222,13 @@ namespace Telas {
             // panelCadCategoriaLocal
             // 
             this.panelCadCategoriaLocal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(100)))));
-            this.panelCadCategoriaLocal.Controls.Add(this.maskedTextBox4);
+            this.panelCadCategoriaLocal.Controls.Add(this.tbDescontoLocal);
+            this.panelCadCategoriaLocal.Controls.Add(this.tbValorLocal);
+            this.panelCadCategoriaLocal.Controls.Add(this.tbCategoriaLocal);
             this.panelCadCategoriaLocal.Controls.Add(this.label6);
-            this.panelCadCategoriaLocal.Controls.Add(this.maskedTextBox3);
             this.panelCadCategoriaLocal.Controls.Add(this.numericUpDown1);
             this.panelCadCategoriaLocal.Controls.Add(this.label2);
             this.panelCadCategoriaLocal.Controls.Add(this.label4);
-            this.panelCadCategoriaLocal.Controls.Add(this.maskedTextBox2);
             this.panelCadCategoriaLocal.Controls.Add(this.label5);
             this.panelCadCategoriaLocal.Controls.Add(this.button2);
             this.panelCadCategoriaLocal.Controls.Add(this.button5);
@@ -246,13 +239,6 @@ namespace Telas {
             this.panelCadCategoriaLocal.Size = new System.Drawing.Size(765, 137);
             this.panelCadCategoriaLocal.TabIndex = 122;
             // 
-            // maskedTextBox4
-            // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(278, 83);
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(76, 20);
-            this.maskedTextBox4.TabIndex = 97;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -262,13 +248,6 @@ namespace Telas {
             this.label6.Size = new System.Drawing.Size(76, 13);
             this.label6.TabIndex = 96;
             this.label6.Text = "Desconto Máx";
-            // 
-            // maskedTextBox3
-            // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(55, 83);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(217, 20);
-            this.maskedTextBox3.TabIndex = 95;
             // 
             // numericUpDown1
             // 
@@ -296,13 +275,6 @@ namespace Telas {
             this.label4.Size = new System.Drawing.Size(79, 13);
             this.label4.TabIndex = 91;
             this.label4.Text = "Quant Pessoas";
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(55, 27);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(217, 20);
-            this.maskedTextBox2.TabIndex = 88;
             // 
             // label5
             // 
@@ -353,6 +325,34 @@ namespace Telas {
             this.btnListarLocais.Text = "LISTAR LOCAIS";
             this.btnListarLocais.UseVisualStyleBackColor = false;
             // 
+            // tbNomeLocal
+            // 
+            this.tbNomeLocal.Location = new System.Drawing.Point(55, 27);
+            this.tbNomeLocal.Name = "tbNomeLocal";
+            this.tbNomeLocal.Size = new System.Drawing.Size(161, 20);
+            this.tbNomeLocal.TabIndex = 94;
+            // 
+            // tbCategoriaLocal
+            // 
+            this.tbCategoriaLocal.Location = new System.Drawing.Point(55, 27);
+            this.tbCategoriaLocal.Name = "tbCategoriaLocal";
+            this.tbCategoriaLocal.Size = new System.Drawing.Size(217, 20);
+            this.tbCategoriaLocal.TabIndex = 95;
+            // 
+            // tbValorLocal
+            // 
+            this.tbValorLocal.Location = new System.Drawing.Point(55, 83);
+            this.tbValorLocal.Name = "tbValorLocal";
+            this.tbValorLocal.Size = new System.Drawing.Size(217, 20);
+            this.tbValorLocal.TabIndex = 98;
+            // 
+            // tbDescontoLocal
+            // 
+            this.tbDescontoLocal.Location = new System.Drawing.Point(278, 83);
+            this.tbDescontoLocal.Name = "tbDescontoLocal";
+            this.tbDescontoLocal.Size = new System.Drawing.Size(76, 20);
+            this.tbDescontoLocal.TabIndex = 99;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -387,25 +387,25 @@ namespace Telas {
         private System.Windows.Forms.Button btnShowCadLocal;
         private System.Windows.Forms.Panel panelCadLocal;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbDescricaoLocal;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnShowCadCategoriaLocal;
         private System.Windows.Forms.Panel panelCadCategoriaLocal;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnListarLocais;
+        private System.Windows.Forms.TextBox tbNomeLocal;
+        private System.Windows.Forms.TextBox tbDescontoLocal;
+        private System.Windows.Forms.TextBox tbValorLocal;
+        private System.Windows.Forms.TextBox tbCategoriaLocal;
     }
 }

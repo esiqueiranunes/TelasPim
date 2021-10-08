@@ -9,11 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Telas {
-    public partial class Form3 : Form {
-        public Form3() {
+    public partial class Form7 : Form {
+        public Form7() {
             InitializeComponent();
         }
-               
+
+        private void label10_Click(object sender, EventArgs e) {
+
+        }
 
         private void btnSair_Click(object sender, EventArgs e) {
             this.Close();

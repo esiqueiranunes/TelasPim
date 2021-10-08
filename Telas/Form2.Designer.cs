@@ -70,7 +70,7 @@ namespace Telas {
             this.btnShowCadEndereco.Location = new System.Drawing.Point(0, 260);
             this.btnShowCadEndereco.Name = "btnShowCadEndereco";
             this.btnShowCadEndereco.Size = new System.Drawing.Size(765, 23);
-            this.btnShowCadEndereco.TabIndex = 78;
+            this.btnShowCadEndereco.TabIndex = 90;
             this.btnShowCadEndereco.Text = "Clique aqui para cadatrar Endereço";
             this.btnShowCadEndereco.UseVisualStyleBackColor = true;
             this.btnShowCadEndereco.Click += new System.EventHandler(this.btnShowCadEndereco_Click);
@@ -83,7 +83,7 @@ namespace Telas {
             this.btnCadastrar.Location = new System.Drawing.Point(420, 471);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(106, 36);
-            this.btnCadastrar.TabIndex = 80;
+            this.btnCadastrar.TabIndex = 104;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
@@ -96,7 +96,7 @@ namespace Telas {
             this.button3.Location = new System.Drawing.Point(532, 471);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(106, 36);
-            this.button3.TabIndex = 81;
+            this.button3.TabIndex = 105;
             this.button3.Text = "Botão";
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -295,9 +295,9 @@ namespace Telas {
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label9.Location = new System.Drawing.Point(54, 31);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(294, 31);
+            this.label9.Size = new System.Drawing.Size(317, 31);
             this.label9.TabIndex = 100;
-            this.label9.Text = "CADASTRAR LOCAL";
+            this.label9.Text = "CADASTRAR PESSOA";
             // 
             // button4
             // 
@@ -310,7 +310,7 @@ namespace Telas {
             this.button4.Location = new System.Drawing.Point(627, 26);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(106, 36);
-            this.button4.TabIndex = 105;
+            this.button4.TabIndex = 106;
             this.button4.Text = "Sair";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
@@ -337,14 +337,14 @@ namespace Telas {
             this.maskedTextBox9.Location = new System.Drawing.Point(336, 80);
             this.maskedTextBox9.Name = "maskedTextBox9";
             this.maskedTextBox9.Size = new System.Drawing.Size(197, 20);
-            this.maskedTextBox9.TabIndex = 11;
+            this.maskedTextBox9.TabIndex = 102;
             // 
             // maskedTextBox5
             // 
             this.maskedTextBox5.Location = new System.Drawing.Point(71, 80);
             this.maskedTextBox5.Name = "maskedTextBox5";
             this.maskedTextBox5.Size = new System.Drawing.Size(259, 20);
-            this.maskedTextBox5.TabIndex = 10;
+            this.maskedTextBox5.TabIndex = 101;
             // 
             // label1
             // 
@@ -361,7 +361,7 @@ namespace Telas {
             this.maskedTextBox6.Location = new System.Drawing.Point(71, 35);
             this.maskedTextBox6.Name = "maskedTextBox6";
             this.maskedTextBox6.Size = new System.Drawing.Size(592, 20);
-            this.maskedTextBox6.TabIndex = 9;
+            this.maskedTextBox6.TabIndex = 100;
             // 
             // comboBox1
             // 
@@ -372,7 +372,7 @@ namespace Telas {
             this.comboBox1.Location = new System.Drawing.Point(542, 80);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 12;
+            this.comboBox1.TabIndex = 103;
             // 
             // label2
             // 

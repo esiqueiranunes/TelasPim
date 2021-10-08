@@ -61,6 +61,8 @@ namespace Telas {
 
             
         }
+        
+
         private void Form1_Load(object sender, EventArgs e) {
            
         }
@@ -80,6 +82,7 @@ namespace Telas {
 
         private void btnUsuarios_Click(object sender, EventArgs e) {
             // criar Forms
+            openChildForm(new Form3());
             hideSubMenu();
         }
 
@@ -96,11 +99,13 @@ namespace Telas {
 
         private void btnProdutos_Click(object sender, EventArgs e) {
             // criar Forms
+            openChildForm(new Form6());
             hideSubMenu();
         }
 
         private void btnCategorias_Click(object sender, EventArgs e) {
             // criar Forms
+            openChildForm(new Form7());
             hideSubMenu();
         }
 
