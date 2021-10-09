@@ -89,6 +89,18 @@
     <Compile Include="Form7.Designer.cs">
       <DependentUpon>Form7.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHospedagem1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHospedagem1.Designer.cs">
+      <DependentUpon>FormHospedagem1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHospedagem2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHospedagem2.Designer.cs">
+      <DependentUpon>FormHospedagem2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -111,6 +123,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form7.resx">
       <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHospedagem1.resx">
+      <DependentUpon>FormHospedagem1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHospedagem2.resx">
+      <DependentUpon>FormHospedagem2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

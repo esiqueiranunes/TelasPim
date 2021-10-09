@@ -109,11 +109,7 @@ namespace Telas {
             hideSubMenu();
         }
 
-        private void btnReservar_Click(object sender, EventArgs e) {
-            openChildForm(new Form3());
-            // criar Forms
-            hideSubMenu();
-        }
+        
         #endregion
         // HOSPEDAGEM
         #region HOSPEDAGEM
@@ -121,10 +117,15 @@ namespace Telas {
         private void button1_Click(object sender, EventArgs e) {
             showSubMenu(panelMenuHospedagem);
         }
-        private void btnAtualizarHospedagem_Click(object sender, EventArgs e) {
-            // criar Forms
+        private void btnReservar_Click(object sender, EventArgs e) {
+            openChildForm(new FormHospedagem1());            
             hideSubMenu();
         }
+        private void btnAtualizarHospedagem_Click(object sender, EventArgs e) {
+            openChildForm(new FormHospedagem2());
+            hideSubMenu();
+        }
+
 
         private void btnListar_Click(object sender, EventArgs e) {
             // criar Forms
