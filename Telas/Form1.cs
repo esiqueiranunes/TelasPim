@@ -140,12 +140,12 @@ namespace Telas {
         }
 
         private void btnAnaliseEstoque_Click(object sender, EventArgs e) {
-            // criar Forms
+            openChildForm(new FormEstoque1());
             hideSubMenu();
         }
 
         private void btnContagemEstoque_Click(object sender, EventArgs e) {
-            // criar Forms
+            openChildForm(new FormEstoque2());
             hideSubMenu();
         }
         #endregion

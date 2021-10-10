@@ -42,7 +42,6 @@ namespace Telas {
             this.tbCPF = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tbIDHospedagem = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -126,7 +125,6 @@ namespace Telas {
             this.panelCadReserva.Controls.Add(this.tbCPF);
             this.panelCadReserva.Controls.Add(this.label2);
             this.panelCadReserva.Controls.Add(this.tbIDHospedagem);
-            this.panelCadReserva.Controls.Add(this.button4);
             this.panelCadReserva.Controls.Add(this.label5);
             this.panelCadReserva.Controls.Add(this.button1);
             this.panelCadReserva.Controls.Add(this.button2);
@@ -250,20 +248,6 @@ namespace Telas {
             this.tbIDHospedagem.Size = new System.Drawing.Size(81, 20);
             this.tbIDHospedagem.TabIndex = 100;
             // 
-            // button4
-            // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.Color.Teal;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
-            this.button4.ForeColor = System.Drawing.SystemColors.Window;
-            this.button4.Location = new System.Drawing.Point(22, 36);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(32, 27);
-            this.button4.TabIndex = 99;
-            this.button4.Text = "+";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -362,7 +346,7 @@ namespace Telas {
             this.button5.Text = "Listar";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // FormHospedagem
+            // FormHospedagem1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -374,7 +358,7 @@ namespace Telas {
             this.Controls.Add(this.btnCadReserva);
             this.Controls.Add(this.panelHospedagem);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormHospedagem";
+            this.Name = "FormHospedagem1";
             this.Text = "FormHospedagem1";
             this.panelHospedagem.ResumeLayout(false);
             this.panelHospedagem.PerformLayout();
@@ -400,7 +384,6 @@ namespace Telas {
         private System.Windows.Forms.TextBox tbCPF;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbIDHospedagem;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panelListarReserva;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label1;
