@@ -167,9 +167,10 @@ namespace Telas {
         }
         #endregion
         // OPÇÕES
-        #region OPTIONS
+        #region RELATORIOS
+
         private void button1_Click_1(object sender, EventArgs e) {
-            // criar Forms
+            openChildForm(new FormRelatorios());
             hideSubMenu();
         }
         #endregion
