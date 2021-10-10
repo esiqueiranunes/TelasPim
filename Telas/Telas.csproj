@@ -101,6 +101,18 @@
     <Compile Include="FormEstoque2.Designer.cs">
       <DependentUpon>FormEstoque2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFinanceiro1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinanceiro1.Designer.cs">
+      <DependentUpon>FormFinanceiro1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFinanceiro2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinanceiro2.Designer.cs">
+      <DependentUpon>FormFinanceiro2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHospedagem1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +153,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormEstoque2.resx">
       <DependentUpon>FormEstoque2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinanceiro1.resx">
+      <DependentUpon>FormFinanceiro1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinanceiro2.resx">
+      <DependentUpon>FormFinanceiro2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHospedagem1.resx">
       <DependentUpon>FormHospedagem1.cs</DependentUpon>

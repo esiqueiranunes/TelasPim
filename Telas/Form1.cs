@@ -157,12 +157,12 @@ namespace Telas {
         }
 
         private void btnTransacao_Click(object sender, EventArgs e) {
-            // criar Forms
+            openChildForm(new FormFinanceiro1());
             hideSubMenu();
         }
 
         private void btnContas_Click(object sender, EventArgs e) {
-            // criar Forms
+            openChildForm(new FormFinanceiro2());
             hideSubMenu();
         }
         #endregion

@@ -35,6 +35,9 @@ namespace Telas {
             this.btnContagemEstoque = new System.Windows.Forms.Button();
             this.btnAnaliseEstoque = new System.Windows.Forms.Button();
             this.btnEstoque = new System.Windows.Forms.Button();
+            this.panelMenuHospedagem = new System.Windows.Forms.Panel();
+            this.btnAtualizarHospedagem = new System.Windows.Forms.Button();
+            this.btnReservar = new System.Windows.Forms.Button();
             this.btnHospedagem = new System.Windows.Forms.Button();
             this.panelMenuCadastro = new System.Windows.Forms.Panel();
             this.btnCategorias = new System.Windows.Forms.Button();
@@ -47,16 +50,13 @@ namespace Telas {
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panelMenuHospedagem = new System.Windows.Forms.Panel();
-            this.btnAtualizarHospedagem = new System.Windows.Forms.Button();
-            this.btnReservar = new System.Windows.Forms.Button();
             this.panelSideMenu.SuspendLayout();
             this.panelMenuFinanceiro.SuspendLayout();
             this.panelMenuEstoque.SuspendLayout();
+            this.panelMenuHospedagem.SuspendLayout();
             this.panelMenuCadastro.SuspendLayout();
             this.panelChildForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelMenuHospedagem.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -90,7 +90,7 @@ namespace Telas {
             this.btnOption.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnOption.Size = new System.Drawing.Size(152, 35);
             this.btnOption.TabIndex = 5;
-            this.btnOption.Text = "Opções";
+            this.btnOption.Text = "Relatórios";
             this.btnOption.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOption.UseVisualStyleBackColor = true;
             this.btnOption.Click += new System.EventHandler(this.button1_Click_1);
@@ -212,6 +212,49 @@ namespace Telas {
             this.btnEstoque.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEstoque.UseVisualStyleBackColor = true;
             this.btnEstoque.Click += new System.EventHandler(this.btnEstoque_Click);
+            // 
+            // panelMenuHospedagem
+            // 
+            this.panelMenuHospedagem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(100)))));
+            this.panelMenuHospedagem.Controls.Add(this.btnAtualizarHospedagem);
+            this.panelMenuHospedagem.Controls.Add(this.btnReservar);
+            this.panelMenuHospedagem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelMenuHospedagem.Location = new System.Drawing.Point(0, 285);
+            this.panelMenuHospedagem.Name = "panelMenuHospedagem";
+            this.panelMenuHospedagem.Size = new System.Drawing.Size(152, 67);
+            this.panelMenuHospedagem.TabIndex = 4;
+            // 
+            // btnAtualizarHospedagem
+            // 
+            this.btnAtualizarHospedagem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAtualizarHospedagem.FlatAppearance.BorderSize = 0;
+            this.btnAtualizarHospedagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtualizarHospedagem.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnAtualizarHospedagem.Location = new System.Drawing.Point(0, 30);
+            this.btnAtualizarHospedagem.Name = "btnAtualizarHospedagem";
+            this.btnAtualizarHospedagem.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btnAtualizarHospedagem.Size = new System.Drawing.Size(152, 30);
+            this.btnAtualizarHospedagem.TabIndex = 1;
+            this.btnAtualizarHospedagem.Text = "Atualizar hospedagem";
+            this.btnAtualizarHospedagem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAtualizarHospedagem.UseVisualStyleBackColor = true;
+            this.btnAtualizarHospedagem.Click += new System.EventHandler(this.btnAtualizarHospedagem_Click);
+            // 
+            // btnReservar
+            // 
+            this.btnReservar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnReservar.FlatAppearance.BorderSize = 0;
+            this.btnReservar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReservar.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnReservar.Location = new System.Drawing.Point(0, 0);
+            this.btnReservar.Name = "btnReservar";
+            this.btnReservar.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btnReservar.Size = new System.Drawing.Size(152, 30);
+            this.btnReservar.TabIndex = 0;
+            this.btnReservar.Text = "Reservar";
+            this.btnReservar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservar.UseVisualStyleBackColor = true;
+            this.btnReservar.Click += new System.EventHandler(this.btnReservar_Click);
             // 
             // btnHospedagem
             // 
@@ -388,49 +431,6 @@ namespace Telas {
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // panelMenuHospedagem
-            // 
-            this.panelMenuHospedagem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(100)))));
-            this.panelMenuHospedagem.Controls.Add(this.btnAtualizarHospedagem);
-            this.panelMenuHospedagem.Controls.Add(this.btnReservar);
-            this.panelMenuHospedagem.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMenuHospedagem.Location = new System.Drawing.Point(0, 285);
-            this.panelMenuHospedagem.Name = "panelMenuHospedagem";
-            this.panelMenuHospedagem.Size = new System.Drawing.Size(152, 67);
-            this.panelMenuHospedagem.TabIndex = 4;
-            // 
-            // btnAtualizarHospedagem
-            // 
-            this.btnAtualizarHospedagem.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAtualizarHospedagem.FlatAppearance.BorderSize = 0;
-            this.btnAtualizarHospedagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAtualizarHospedagem.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnAtualizarHospedagem.Location = new System.Drawing.Point(0, 30);
-            this.btnAtualizarHospedagem.Name = "btnAtualizarHospedagem";
-            this.btnAtualizarHospedagem.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnAtualizarHospedagem.Size = new System.Drawing.Size(152, 30);
-            this.btnAtualizarHospedagem.TabIndex = 1;
-            this.btnAtualizarHospedagem.Text = "Atualizar hospedagem";
-            this.btnAtualizarHospedagem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAtualizarHospedagem.UseVisualStyleBackColor = true;
-            this.btnAtualizarHospedagem.Click += new System.EventHandler(this.btnAtualizarHospedagem_Click);
-            // 
-            // btnReservar
-            // 
-            this.btnReservar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReservar.FlatAppearance.BorderSize = 0;
-            this.btnReservar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReservar.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnReservar.Location = new System.Drawing.Point(0, 0);
-            this.btnReservar.Name = "btnReservar";
-            this.btnReservar.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btnReservar.Size = new System.Drawing.Size(152, 30);
-            this.btnReservar.TabIndex = 0;
-            this.btnReservar.Text = "Reservar";
-            this.btnReservar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservar.UseVisualStyleBackColor = true;
-            this.btnReservar.Click += new System.EventHandler(this.btnReservar_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -445,11 +445,11 @@ namespace Telas {
             this.panelSideMenu.ResumeLayout(false);
             this.panelMenuFinanceiro.ResumeLayout(false);
             this.panelMenuEstoque.ResumeLayout(false);
+            this.panelMenuHospedagem.ResumeLayout(false);
             this.panelMenuCadastro.ResumeLayout(false);
             this.panelChildForm.ResumeLayout(false);
             this.panelChildForm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelMenuHospedagem.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
